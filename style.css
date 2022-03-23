@@ -728,6 +728,7 @@ img{
 .project__img{
     width: 232px;
     justify-self: center;
+    margin-bottom: 30px ;
 }
 
 /*===Testimonial===*/
