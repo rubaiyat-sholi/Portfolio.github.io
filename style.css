@@ -714,6 +714,9 @@ img{
     background-color: var(--first-color-second);
     padding-top: 3rem;
 }
+.project__container {
+    background-color: #772296 ! important;
+}
 .project__title{
     font-size: var(--h2--font-size);
     margin-bottom: var(--mb-0-75);
