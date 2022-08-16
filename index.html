@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     
+
+    
     <title>Responsive Portfolio Website</title>
 </head>
 <body>
@@ -53,6 +55,11 @@
              <li class="nav__item">
                 <a href="#portfolio" class="nav__link">
                     <i class="uil uil-scenery nav__icon"></i>Portfolio
+                </a>
+             </li>
+             <li class="nav__item">
+                <a href="#publications" class="nav__link">
+                    <i class="uil uil-scenery nav__icon"></i>Publications
                 </a>
              </li>
              <li class="nav__item">
@@ -635,13 +642,28 @@
      <span class="section__subtitle">Most recent work</span>
       <div class="portfolio__container container swiper">
           <div class="swiper-wrapper">
-              <!-- Portfolio 1-->
+            <!-- Portfolio 1-->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="images/portfolio-3.PNG" alt="" class="portfolio__img">
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">MLA Solver</h3>
+                    <p class="portfolio__description">Solve Machine Learning Algorithm Instantly.<br>We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role.<br>Technology used in this project:<br>
+                        * HTML
+                        * CSS
+                        * JavaScript</p>
+                     <a href="ML_Solver/index.html" class="button button--flex button--small portfolio__button" target="_blank">
+                         Demo
+                         <i class="uil uil-arrow-right button__icon"></i>
+                     </a>
+                </div>
+            </div>
+              <!-- Portfolio 2-->
               <div class="portfolio__content grid swiper-slide">
                   <img src="images/portfolio-1.PNG" alt="" class="portfolio__img">
                   <div class="portfolio__data">
                       <h3 class="portfolio__title">Way Towards Heaven</h3>
-                      <p class="portfolio__description">Technology used in this project:<br>* HTML<br>
-                        * CSS<br>
+                      <p class="portfolio__description">You can read islamic books and bless your ear by listening beautiful and soothing Al-Quran as well as Islamic Nasheed, Nath, Songs.<br>So check it out! & spread peace and happiness around you!<br>Technology used in this project:<br>* HTML
+                        * CSS
                         * JavaScript</p>
                        <a href="https://rubaiyat-sholi.github.io/waytowardsheaven.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
                            Demo
@@ -650,16 +672,16 @@
                   </div>
               </div>
 
-               <!-- Portfolio 2-->
+               <!-- Portfolio 3-->
                <div class="portfolio__content grid swiper-slide">
                 <img src="images/portfolio-2.PNG" alt="" class="portfolio__img">
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">COVID-19 GUIDE</h3>
-                    <p class="portfolio__description">Technology used in this project:<br>
-                        * Java (Android Studio)<br>
-                        * JDK 18<br>
-                        * Android google API 23<br>
-                        * SQLite Database<br>
+                    <p class="portfolio__description">Covid-19 Guide" is an informative Android application based on information about the continuing Covid-19 epidemic (CoronaVirus). It is a comprehensive resource for those seeking information about the coronavirus, from the virus's origin to prevention advice.<br>Technology used in this project:<br>
+                        * Java (Android Studio)
+                        * JDK 18
+                        * Android google API 23
+                        * SQLite Database
                         * JSON</p>
                      <a href="https://iamfoysalahmed.github.io/covid-guide.github.io/" class="button button--flex button--small portfolio__button" target="_blank">
                          Demo
@@ -668,32 +690,18 @@
                 </div>
             </div>
 
-             <!-- Portfolio 3-->
-             <div class="portfolio__content grid swiper-slide">
-                <img src="images/portfolio-3.PNG" alt="" class="portfolio__img">
-                <div class="portfolio__data">
-                    <h3 class="portfolio__title">MLA Solver</h3>
-                    <p class="portfolio__description">Technology used in this project:<br>
-                        * HTML<br>
-                        * CSS<br>
-                        * JavaScript</p>
-                     <a href="ML_Solver/index.html" class="button button--flex button--small portfolio__button" target="_blank">
-                         Demo
-                         <i class="uil uil-arrow-right button__icon"></i>
-                     </a>
-                </div>
-            </div>
+             
 
              <!-- Portfolio 4-->
              <div class="portfolio__content grid swiper-slide">
                 <img src="images/portfolio-4.png" alt="" class="portfolio__img">
                 <div class="portfolio__data">
                     <h3 class="portfolio__title">Newsprotidin</h3>
-                    <p class="portfolio__description">Technology used in this project:<br>
-                        * HTML<br>
-                        * CSS<br>
-                        * Bootstrap<br>
-                        * PHP (Back-end)<br>
+                    <p class="portfolio__description">Newsprotidin is here to be the platform for that new voice, and new vision.The editorial team is totally committed to delivering accurate and impartial news with the aim of informing the public debate and enabling Bangladeshis to make educated choices.<br>Technology used in this project:<br>
+                        * HTML
+                        * CSS
+                        * Bootstrap
+                        * PHP (Back-end)
                         * MySQL (Database)</p>
                      <a href="ML_Solver/index.html" class="button button--flex button--small portfolio__button" target="_blank">
                          Demo
@@ -716,18 +724,34 @@
  </section>
 
  <!-- Project in mind-->
-  <section class="project section">
+  <section class="project section" id="publications">
+    <h2 class="section__title">Publications</h2>
+    <span class="section__subtitle">Most recent published journal</span>
       <div class="project__bg">
-          <div class="project__container container grid">
-              <div class="project__data">
-                  <h2 class="project__title">Have you any queries???</h2>
-                  <p class="project__description">Get in touch with me</p>
-                  <a href="#contact" class="button button--flex button--white">
-                      Contact Me
-                      <i class="uil uil-message project__icon button__icon"></i>
-                  </a>
+          <div class="project__container container">
+              <!-- Accordion -->
+              <div class="accordion">
+                <div class="contentBx">
+                    <div class="label"><b>Application and aspects of computer vision in education</b></div>
+                    <div class="content">
+                        <p>The Bulletin of Electrical Engineering and Informatics (BEEI), ISSN: 2089-3191, e-ISSN: 2302-9285, is open to submissions from scholars and experts in the wide areas of electrical engineering, electronics, instrumentation, control, robotics, telecommunication, computer engineering, computer science, information systems, information technology, and informatics from around the world. The BEEI is an open access peer-reviewed journal published by the Institute of Advanced Engineering and Science (IAES) in collaboration with Intelektual Pustaka Media Utama (IPMU). This journal is indexed by Scopus (Elsevier)/ScimagoJR, and has SNIP: 0.730, CiteScore: 2.4, and SJR: 0.357. The Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia has given this journal its SINTA 1 (S1) seal of approval. Starting with the first issue of volume 9 in 2020, BEEI will come out every two months (6 issues/year).
+                            </p>
+                    </div>
                 </div>
-                <img src="images/purple.jpeg" alt="" class="project__img">
+                <div class="contentBx">
+                    <div class="label"><b>Machine
+                        learning in Education: A Systematic Review</b></div>
+                    <div class="content">
+                        <p>The Bulletin of Electrical Engineering and Informatics (BEEI), ISSN: 2089-3191, e-ISSN: 2302-9285, is open to submissions from scholars and experts in the wide areas of electrical engineering, electronics, instrumentation, control, robotics, telecommunication, computer engineering, computer science, information systems, information technology, and informatics from around the world. The BEEI is an open access peer-reviewed journal published by the Institute of Advanced Engineering and Science (IAES) in collaboration with Intelektual Pustaka Media Utama (IPMU). This journal is indexed by Scopus (Elsevier)/ScimagoJR, and has SNIP: 0.730, CiteScore: 2.4, and SJR: 0.357. The Ministry of Education, Culture, Research, and Technology of the Republic of Indonesia has given this journal its SINTA 1 (S1) seal of approval. Starting with the first issue of volume 9 in 2020, BEEI will come out every two months (6 issues/year).</p>
+                    </div>
+                </div>
+                <div class="contentBx">
+                    <div class="label"><b>Paper 3</b></div>
+                    <div class="content">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
             </div>
       </div>
   </section>
@@ -835,6 +859,8 @@
 </a>
 <!--Swiper JS-->
    <script src="swiper-bundle.min.js"> </script>
+  
+  
 
    <!--Main Js-->
    <script src="main.js"> </script>

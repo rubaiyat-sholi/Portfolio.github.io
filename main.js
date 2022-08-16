@@ -138,6 +138,15 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
+/*  Accordion */ 
+const accordion = document.getElementsByClassName('contentBx');
+
+for (i=0; i<accordion.length; i++){
+    accordion[i].addEventListener('click', function(){
+        this.classList.toggle('active')
+    })
+}
+
 /*========= Change background header ======*/
 function scrollHeader(){
     const nav = document.getElementById('header')
