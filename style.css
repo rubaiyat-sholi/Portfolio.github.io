@@ -151,8 +151,19 @@ img{
 /*=== Layout ===*/
 .container{
     max-width: 768px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin:auto;
+    color: black;
+}
+.container2{
+    max-width: 768px;
+    color: white;
+    margin:auto;
+    
+}
+.container3{
+    max-width: 768px;
+    color: white;
+    margin:auto;
 }
 .grid{
     display: grid;
@@ -718,6 +729,7 @@ img{
 .project__container {
     background-color: #772296 ! important;
     padding-bottom: 3rem !important;
+
 }
 .project__title{
     font-size: var(--h2--font-size);
@@ -814,6 +826,11 @@ img{
 }
 .swiper-pagination .swiper-pagination-testimonial{
     bottom: 0;
+}
+
+/*Programming skill --*/
+.ol .li{
+  color:white;
 }
 
 
