@@ -152,6 +152,8 @@ img{
 .container{
     max-width: 768px;
     margin:auto;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
     color: black;
 }
 .container2{
