@@ -312,6 +312,7 @@ img{
 }
 .home__description{
     margin-bottom: var(--mb-2);
+    color:var(--title-color);
 }
 .home__scroll{
     display: none;
@@ -387,12 +388,14 @@ img{
 .about__description{
     text-align: justify;
     margin-bottom: var(--mb-2-5);
+    color:var(--title-color);
 
 }
 .about__info{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
+    color:var(--title-color);
 }
 .about__info-title{
     font-size: var(--h2--font-size);
@@ -454,6 +457,10 @@ img{
     font-size: var(--normal--font-size);
     font-weight: var(--font-medium);
 }
+.skills__number{
+    color:var(--title-color);
+}
+
 .skills__bar,
 .skills__percentage{
     height: 5px;
@@ -523,6 +530,7 @@ img{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
+    color:var(--title-color);
 }
 .qualification__button{
     font-size: var(--h3--font-size);
@@ -535,15 +543,18 @@ img{
 .qualification__icon{
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
+    color:var(--title-color);
 }
 .qualification__data{
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+    color:var(--title-color);
 }
 .qualification__title{
     font-size: var(--normal--font-size);
     font-weight: var(--font-medium);
+
 }
 .qualification__subtitle{
     display: inline-block;
@@ -629,6 +640,7 @@ img{
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    color:var(--title-color);
 }
 .services__modal-content{
     position: relative;
@@ -684,6 +696,7 @@ img{
 }
 .portfolio__description{
     margin-bottom: var(--mb-0-75);
+    color:var(--title-color);
 }
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
@@ -1080,7 +1093,9 @@ img{
     .nav__close,
     .nav__toggle{
         display: none;
+
     }
+
     .nav__list{
         display: flex;
         column-gap: 2rem;
@@ -1090,6 +1105,7 @@ img{
     }
     .change-theme{
         margin: 0;
+        color:var(--title-color);
     }
     .home__container{
         row-gap: 5rem;
